@@ -37,6 +37,6 @@ namespace DesafioSegundo.Api.Features.SobreCodigos
         [HttpGet]
         [Route("")]
         [AllowAnonymous]
-        public IActionResult Get() => Ok("https://github.com/danielmeloramos");
+        public IActionResult Get() => Ok("https://github.com/danielmeloramos/SolucaoDesafio");
     }
 }
