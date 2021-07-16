@@ -1,0 +1,34 @@
+﻿.swagger-ui .topbar {
+    background-color: #00506A !important;
+    border-bottom: 3px solid #123f4e !important;
+}
+
+.swagger-ui .topbar .download-url-wrapper .select-label select {
+    flex: 2;
+    width: 100%;
+    border: 2px solid #f3f3f3;
+    outline: none;
+    box-shadow: none;
+}
+
+.swagger-ui .btn.authorize {
+    line-height: 1;
+    display: inline;
+    color: #00506A;
+    border-color: #00506A;
+    background-color: transparent;
+}
+
+.swagger-ui .btn.authorize svg {
+    fill: #00506A;
+}
+
+.swagger-ui .info .title small.version-stamp {
+    background-color: #00506a;
+}
+
+.swagger-ui a.nostyle, .swagger-ui a.nostyle:visited {
+    text-decoration: inherit;
+    color: #00506a;
+    cursor: pointer;
+}

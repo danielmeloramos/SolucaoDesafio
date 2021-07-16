@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="5.10.3" />
+    <PackageReference Include="Moq" Version="4.15.2" />
+    <PackageReference Include="NUnit" Version="3.12.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.16.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NddCargo.Integration.Application.ObjectMother\NddCargo.Integration.Application.ObjectMother.csproj" />
+    <ProjectReference Include="..\NddCargo.Integration.Application\NddCargo.Integration.Application.csproj" />
+    <ProjectReference Include="..\NddCargo.Integration.Domain.ObjectMother\NddCargo.Integration.Domain.ObjectMother.csproj" />
+    <ProjectReference Include="..\NddCargo.Integration.Domain\NddCargo.Integration.Domain.csproj" />
+    <ProjectReference Include="..\NddCargo.Integration.Infra.ObjectMother\NddCargo.Integration.Infra.ObjectMother.csproj" />
+    <ProjectReference Include="..\NddCargo.Integration.Infra\NddCargo.Integration.Infra.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NddCargo.Integration.Application\NddCargo.Integration.Application.csproj" />
+    <ProjectReference Include="..\NddCargo.Integration.Domain.ObjectMother\NddCargo.Integration.Domain.ObjectMother.csproj" />
+    <ProjectReference Include="..\NddCargo.Integration.Infra.ObjectMother\NddCargo.Integration.Infra.ObjectMother.csproj" />
+  </ItemGroup>
+
+</Project>

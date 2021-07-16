@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard20</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="2.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.1" />
+    <PackageReference Include="System.Text.Json" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.AspNetCore.Localization">
+      <HintPath>..\..\..\..\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.localization\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Localization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.configuration.abstractions\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Localization.Abstractions">
+      <HintPath>..\..\..\..\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.localization.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Localization.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\Program Files\dotnet\sdk\NuGetFallbackFolder\newtonsoft.json\9.0.1\lib\netstandard1.0\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
